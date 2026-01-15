@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Hero } from './components/Hero';
-import { Services } from './components/Services';
-import { Process } from './components/Process';
-import { Portfolio } from './components/Portfolio';
-import { TechAdvisor } from './components/TechAdvisor';
-import { Contact } from './components/Contact';
-import { Footer } from './components/Footer';
-import { Navbar } from './components/Navbar';
+import { Hero } from './components/Hero.tsx';
+import { Services } from './components/Services.tsx';
+import { Process } from './components/Process.tsx';
+import { Portfolio } from './components/Portfolio.tsx';
+import { TechAdvisor } from './components/TechAdvisor.tsx';
+import { Contact } from './components/Contact.tsx';
+import { Footer } from './components/Footer.tsx';
+import { Navbar } from './components/Navbar.tsx';
 import { ArrowUp } from 'lucide-react';
 
 const App: React.FC = () => {

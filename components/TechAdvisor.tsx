@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Sparkles, Loader2, Send } from 'lucide-react';
-import { generateTechAdvice } from '../services/geminiService';
+import { generateTechAdvice } from '../services/geminiService.ts';
 import ReactMarkdown from 'react-markdown';
 
 export const TechAdvisor: React.FC = () => {
